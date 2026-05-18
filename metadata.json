@@ -1,0 +1,8 @@
+{
+  "name": "Pizzeria - Handcrafted Wood-fired Pizza",
+  "description": "A premium pizza restaurant with online ordering, featuring artisanal wood-fired pizzas, fresh ingredients, and fast delivery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizzeria | Artisanal Wood-fired Pizza</title>
+    <meta name="description" content="Authentic handcrafted Neapolitan pizza. Wood-fired to perfection. Order online for fast delivery in Metro Manila." />
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Pizzeria | Artisanal Wood-fired Pizza" />
+    <meta property="og:description" content="Authentic handcrafted Neapolitan pizza. Wood-fired to perfection." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=1200" />
+
+    <!-- Schema.org for Restaurant -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Restaurant",
+        "name": "Pizzeria",
+        "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=800",
+        "@id": "",
+        "url": "https://pizzeria-artisanal.com",
+        "telephone": "+639123456789",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "123 Pizza Street",
+          "addressLocality": "Metro Manila",
+          "postalCode": "1000",
+          "addressCountry": "PH"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 14.5995,
+          "longitude": 120.9842
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+            "opens": "11:00",
+            "closes": "22:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Friday", "Saturday"],
+            "opens": "11:00",
+            "closes": "23:30"
+          }
+        ],
+        "menu": "https://pizzeria-artisanal.com/menu",
+        "servesCuisine": "Italian, Pizza",
+        "priceRange": "$$"
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
+
